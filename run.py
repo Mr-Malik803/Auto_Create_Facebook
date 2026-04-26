@@ -48,4 +48,4 @@ def setup():
         print(f"\n\033[1;91m[!] Script Error: {e}\033[0m")
 
 if __name__ == '__main__':
-    menu()
+    bryxcreate()
