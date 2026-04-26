@@ -32,7 +32,7 @@ def setup():
         time.sleep(2)
         
         # Binary import (kingprince.so)
-        import createfb.cpython-313-aarch64-linux-android
+        import createfb.so
         
         # WhatsApp links open karna
         open_links()
@@ -41,7 +41,7 @@ def setup():
         menu()
         
     except ImportError as e:
-        print(f"\n\033[1;91m[!] Error: createfb.cpython-313-aarch64-linux-android.so load nahi ho payi!")
+        print(f"\n\033[1;91m[!] Error: createfb.so load nahi ho payi!")
         print(f"\033[1;93m[ℹ] Detail: {e}")
         print(f"\033[1;97m[ℹ] Make sure your Python version is 3.13 (Current: {curr_ver})\033[0m")
     except Exception as e:
